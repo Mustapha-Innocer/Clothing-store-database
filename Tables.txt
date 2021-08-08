@@ -1,0 +1,60 @@
+These are the tables and their columns of the clothing store database.
+	user
+		id
+		username
+		password
+		first_name
+		middle_name
+		last_name
+		gender
+		telephone
+		email
+		created_at
+		modified_at
+	
+	user_address
+		id
+		user_id
+		addressline1
+		addressline2
+		city
+		region
+		country
+		
+	user_payment
+		id
+		user_id
+		payment_type
+		provider
+		account_no
+		
+	product
+		id
+		name
+		desc
+		sku
+		size
+		color
+		price
+		stock
+		created_at
+		modified_at
+		
+	order_detail
+		id
+		user_id
+		total
+		payment_id
+		created_at
+		modified_at
+	
+	order_item
+		id
+		order_id
+		product_id
+		quantity
+		created_at
+		modified_at
+		
+		
+		
