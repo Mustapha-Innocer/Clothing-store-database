@@ -1,4 +1,4 @@
-These are the tables and their columns of the clothin store database.
+These are the tables and their columns of the clothing store database.
 	user
 		id
 		username
@@ -48,7 +48,7 @@ These are the tables and their columns of the clothin store database.
 		created_at
 		modified_at
 	
-	order_items
+	order_item
 		id
 		order_id
 		product_id
